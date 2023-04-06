@@ -1,1 +1,82 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Hanuman", serif;
+}
+
+body {
+  background: rgb(27, 24, 27);
+  background: linear-gradient(180deg, rgb(27, 24, 27) 0%, rgb(27, 25, 28) 63%, rgb(38, 34, 29) 100%);
+}
+
+nav {
+  display: flex;
+  line-height: 100px;
+  margin-left: 55px;
+}
+nav img {
+  max-width: 100px;
+  max-height: 100px;
+}
+nav ul {
+  list-style-type: none;
+  display: inline-flex;
+  margin-left: auto;
+}
+nav ul h2 {
+  font-weight: bold;
+}
+nav ul li {
+  margin: 0 1em;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+.hero {
+  margin-left: 55px;
+  display: inline-flex;
+}
+.hero .left {
+  max-width: 425px;
+}
+.hero .left .main-txt {
+  margin: 30px 0;
+}
+.hero .left .main-txt h1 {
+  font-size: 50px;
+  color: #DEB891;
+}
+.hero .left .main-txt p {
+  color: #654332;
+}
+.hero .left .paragraph p {
+  color: #575257;
+}
+.hero .left .btn {
+  margin: 70px 0;
+}
+.hero .left .btn button {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #EEDFCF;
+}
+.hero .left .tags {
+  display: flex;
+  flex-direction: column;
+}
+.hero .left .tags .tag {
+  display: inline-flex;
+  margin: 10px 0;
+}
+.hero .right {
+  margin-left: 25em;
+  margin-top: -5em;
+  z-index: -1;
+}
+.hero .right img {
+  max-height: 940px;
+}/*# sourceMappingURL=style.css.map */
