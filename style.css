@@ -101,6 +101,39 @@ nav ul li a {
 .container .offers .offer {
   max-width: 400px;
   text-align: center;
-  color: white;
+  color: #deb891;
   margin: 2em auto;
+}
+
+.plants {
+  display: flex;
+  justify-content: center;
+  gap: 10em;
+  margin-top: 3em;
+}
+.plants .plant-container {
+  display: inline-flex;
+  background-color: rgb(27, 24, 27);
+  padding: 1em;
+  border-radius: 15px;
+}
+.plants .plant-container .text {
+  max-width: 400px;
+  max-height: 300px;
+}
+.plants .plant-container .text h3 {
+  color: #654332;
+}
+.plants .plant-container .text h2 {
+  color: #deb891;
+}
+.plants .plant-container .text p {
+  color: #575257;
+  margin: 0.5em 0 2em 0;
+}
+.plants .plant-container .text .secondary-color {
+  color: #654332;
+}
+.plants .plant-container img {
+  max-width: 200px;
 }/*# sourceMappingURL=style.css.map */

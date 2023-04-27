@@ -1,3 +1,7 @@
+$main-color: #deb891;
+$secondary-color: #654332;
+$text-color: #575257;
+$seconday-bg: rgb(27, 24, 27);
 * {
   margin: 0;
   padding: 0;
@@ -116,8 +120,45 @@ nav {
     .offer {
       max-width: 400px;
       text-align: center;
-      color: white;
+      color: #deb891;
       margin: 2em auto;
+    }
+  }
+}
+
+.plants {
+  display: flex;
+  justify-content: center;
+  gap: 10em;
+  margin-top: 3em;
+  .plant-container {
+    display: inline-flex;
+    background-color: $seconday-bg;
+    padding: 1em;
+    border-radius: 15px;
+    .text {
+      max-width: 400px;
+      max-height: 300px;
+
+      h3 {
+        color: $secondary-color;
+      }
+
+      h2 {
+        color: $main-color;
+      }
+
+      p {
+        color: $text-color;
+        margin: 0.5em 0 2em 0;
+      }
+      .secondary-color {
+        color: $secondary-color;
+      }
+    }
+
+    img {
+      max-width: 200px;
     }
   }
 }
