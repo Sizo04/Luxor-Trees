@@ -2,6 +2,7 @@ $main-color: #deb891;
 $secondary-color: #654332;
 $text-color: #575257;
 $seconday-bg: rgb(27, 24, 27);
+$hover-color: #654332;
 * {
   margin: 0;
   padding: 0;
@@ -82,7 +83,7 @@ nav {
         background-color: #eedfcf;
 
         &:hover {
-          background-color: #654332;
+          background-color: $hover-color;
           color: #deb891;
         }
       }
@@ -159,6 +160,18 @@ nav {
 
     img {
       max-width: 200px;
+    }
+
+    &:hover {
+      background-color: rgba(10, 0, 0, 0.747);
+    }
+  }
+}
+
+@media only screen and (max-width: 1315px) {
+  .container {
+    .offers {
+      flex-direction: column;
     }
   }
 }
