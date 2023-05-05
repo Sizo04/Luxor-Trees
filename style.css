@@ -141,6 +141,26 @@ nav ul li a {
   background-color: rgba(10, 0, 0, 0.747);
 }
 
+.catalog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5em;
+}
+.catalog a {
+  text-decoration: none;
+  color: black;
+  background-color: #deb891;
+  padding: 1em 6em;
+  border-radius: 15px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.catalog a:hover {
+  background-color: #654332;
+  color: #deb891;
+}
+
 @media only screen and (max-width: 1315px) {
   .container .offers {
     flex-direction: column;

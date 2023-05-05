@@ -3,6 +3,7 @@ $secondary-color: #654332;
 $text-color: #575257;
 $seconday-bg: rgb(27, 24, 27);
 $hover-color: #654332;
+$hover-text: #deb891;
 * {
   margin: 0;
   padding: 0;
@@ -84,7 +85,7 @@ nav {
 
         &:hover {
           background-color: $hover-color;
-          color: #deb891;
+          color: $hover-text;
         }
       }
     }
@@ -164,6 +165,28 @@ nav {
 
     &:hover {
       background-color: rgba(10, 0, 0, 0.747);
+    }
+  }
+}
+
+.catalog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 5em;
+  a {
+    text-decoration: none;
+    color: black;
+    background-color: $main-color;
+    padding: 1em 6em;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: bold;
+
+    &:hover {
+      background-color: $hover-color;
+      color: $hover-text;
     }
   }
 }
