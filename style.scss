@@ -175,15 +175,15 @@ nav {
     }
   }
 
-  .plants{
+  .plants {
     flex-direction: column;
     align-items: center;
   }
 }
 
-@media only screen and (max-width: 635px){
-  .plants{
-    .plant-container{
+@media only screen and (max-width: 635px) {
+  .plants {
+    .plant-container {
       flex-direction: column;
       align-items: center;
     }
