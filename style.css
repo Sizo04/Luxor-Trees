@@ -151,7 +151,7 @@ nav ul li a {
 .catalog a {
   text-decoration: none;
   color: black;
-  background-color: #deb891;
+  background-color: #eedfcf;
   padding: 1em 6em;
   border-radius: 15px;
   font-size: 30px;
@@ -170,7 +170,12 @@ nav ul li a {
 }
 .contact .container {
   display: flex;
-  padding: 5em;
+  padding: 2em;
+  border-radius: 40px;
+}
+.contact .container h1 {
+  color: #575257;
+  font-weight: bold;
 }
 .contact .container .form {
   padding: 1em;
@@ -180,6 +185,8 @@ nav ul li a {
 }
 .contact .container .form p {
   color: #575257;
+  font-weight: bold;
+  margin-bottom: -10px;
 }
 .contact .container .form input {
   padding: 1em 10em 1em 0;
@@ -198,6 +205,16 @@ nav ul li a {
   font-size: 16px;
   margin: 1em 0;
 }
+.contact .container .form button {
+  background-color: #eedfcf;
+  padding: 1em;
+  border-radius: 5px;
+  border: none;
+}
+.contact .container .form button:hover {
+  background-color: #654332;
+  color: #deb891;
+}
 
 @media only screen and (max-width: 1315px) {
   .container .offers {
@@ -209,9 +226,18 @@ nav ul li a {
     gap: 1em;
   }
 }
+@media only screen and (max-width: 925px) {
+  .contact .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 @media only screen and (max-width: 635px) {
   .plants .plant-container {
     flex-direction: column;
     align-items: center;
+  }
+  .catalog a {
+    padding: 1em 3em;
   }
 }/*# sourceMappingURL=style.css.map */
