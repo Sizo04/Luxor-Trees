@@ -29,8 +29,8 @@ nav {
   font-weight: bold;
   color: white;
   img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 80px;
+    max-height: 80px;
   }
 
   ul {
@@ -240,6 +240,7 @@ nav {
         padding: 1em;
         border-radius: 5px;
         border: none;
+        font-size: 16px;
         &:hover {
           background-color: $hover-color;
           color: $hover-text;
