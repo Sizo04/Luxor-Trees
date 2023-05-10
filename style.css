@@ -309,4 +309,14 @@ nav .button {
   .hero .left .main-txt h1 {
     font-size: 38px;
   }
+}
+@media only screen and (max-width: 445px) {
+  .dropdown-menu.open {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1em;
+  }
 }/*# sourceMappingURL=style.css.map */
