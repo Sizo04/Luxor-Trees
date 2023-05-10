@@ -279,11 +279,34 @@ nav .button {
   }
 }
 @media only screen and (max-width: 635px) {
+  nav {
+    margin: 0;
+  }
   .plants .plant-container {
     flex-direction: column;
     align-items: center;
   }
   .catalog a {
     padding: 1em 3em;
+  }
+}
+@media only screen and (max-width: 485px) {
+  .hero {
+    margin: 1em;
+  }
+  .hero .left {
+    max-width: 425px;
+  }
+  .hero .left .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero .left .tags {
+    align-items: center;
+    justify-content: center;
+  }
+  .hero .left .main-txt h1 {
+    font-size: 38px;
   }
 }/*# sourceMappingURL=style.css.map */
