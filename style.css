@@ -37,6 +37,8 @@ nav ul li a {
 }
 nav .button {
   display: none;
+  position: fixed;
+  right: 0;
 }
 
 .dropdown-menu {
@@ -68,6 +70,7 @@ nav .button {
 
 .dropdown-menu.open {
   height: 140px;
+  position: fixed;
 }
 
 .hero {
