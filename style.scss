@@ -163,6 +163,23 @@ nav {
       text-align: center;
       color: #deb891;
       margin: 2em auto;
+      opacity: 0;
+      transition: all 1s;
+      filter: blur(5px);
+      transform: translateX(-100%);
+    }
+
+    .offer.show {
+      opacity: 1;
+      filter: blur(0);
+      transform: translateX(0);
+    }
+
+    .offer:nth-child(2) {
+      transition-delay: 200ms;
+    }
+    .offer:nth-child(3) {
+      transition-delay: 400ms;
     }
   }
 }
