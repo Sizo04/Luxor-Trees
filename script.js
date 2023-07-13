@@ -26,3 +26,13 @@ const observer = new IntersectionObserver((entries) =>{
 
 const hiddenElements = document.querySelectorAll('.offer')
 hiddenElements.forEach((el) => observer.observe(el))
+
+//buy
+function Buy(element){
+let mainEl = element.closest(".text");
+ let price = mainEl.querySelector(".price").innerText;
+ price = price.substring(1);
+price = parseInt(price);
+ console.log(price);
+
+}

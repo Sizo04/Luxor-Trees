@@ -187,6 +187,12 @@ nav .button {
 .plants .plant-container .text .secondary-color {
   color: #654332;
 }
+.plants .plant-container .text .price-buy {
+  display: flex;
+}
+.plants .plant-container .text .price-buy button {
+  margin-left: auto;
+}
 .plants .plant-container img {
   max-width: 200px;
 }

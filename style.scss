@@ -213,6 +213,12 @@ nav {
       .secondary-color {
         color: $secondary-color;
       }
+      .price-buy {
+        display: flex;
+        button {
+          margin-left: auto;
+        }
+      }
     }
 
     img {
