@@ -44,6 +44,11 @@ nav {
         color: white;
         font-size: 20px;
       }
+      button {
+        border: 0;
+        padding: 0;
+        background-color: rgba(255, 255, 255, 0);
+      }
     }
   }
 
@@ -52,6 +57,38 @@ nav {
     position: fixed;
     right: 0;
   }
+}
+
+.cart-list {
+  max-width: 400px;
+  display: none;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 2rem;
+  top: 80px;
+  background-color: #deb8912a;
+  backdrop-filter: blur(15px);
+
+  .item {
+    width: 100%;
+    flex-direction: column;
+    margin: 1em;
+    text-align: center;
+    justify-content: center;
+    img {
+      max-width: 50px;
+    }
+    .item-info {
+      padding: 1em;
+      flex-direction: row;
+      display: flex;
+    }
+  }
+}
+
+.show {
+  display: block;
 }
 
 .dropdown-menu {
