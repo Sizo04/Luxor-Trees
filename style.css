@@ -236,6 +236,13 @@ nav .button {
 .plants .plant-container:hover {
   background-color: rgba(10, 0, 0, 0.747);
 }
+.plants .plant-container button {
+  background-color: #deb891;
+  color: #575257;
+  border: 1px solid #654332;
+  border-radius: 10px;
+  padding: 1em 2em;
+}
 
 .catalog {
   display: flex;

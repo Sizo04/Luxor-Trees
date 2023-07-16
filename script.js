@@ -41,12 +41,12 @@ let mainEl = element.closest(".plant-container");
  price = price.substring(1);
 price = parseInt(price);
 let all = total += price;
-totalPrice.innerText = `${all}`
+totalPrice.innerText = "Total: " + `${all}` + "$";
 cartItem.innerHTML += `
 <div class="item-info">
 <img id="cart-image" src="${image}" alt="" />
 <h2 id="cart-name">${name}</h2>
-<h2 id="cart-price">${price}</h2>
+<h2 id="cart-price">${price}$</h2>
 </div>  `
 
 }

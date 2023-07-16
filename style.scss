@@ -265,6 +265,14 @@ nav {
     &:hover {
       background-color: rgba(10, 0, 0, 0.747);
     }
+
+    button {
+      background-color: $main-color;
+      color: $text-color;
+      border: 1px solid $secondary-color;
+      border-radius: 10px;
+      padding: 1em 2em;
+    }
   }
 }
 
