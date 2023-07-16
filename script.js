@@ -28,15 +28,20 @@ const hiddenElements = document.querySelectorAll('.offer')
 hiddenElements.forEach((el) => observer.observe(el))
 
 //buy
+total = 0;
 function Buy(element){
 let mainEl = element.closest(".plant-container");
  let price = mainEl.querySelector(".price").innerText;
  let name = mainEl.querySelector(".name").innerText;
  let image = mainEl.querySelector(".image").getAttribute('src');
  let cartItem = document.querySelector(".item");
+ let totalPrice = document.querySelector("#total");
+
+
  price = price.substring(1);
 price = parseInt(price);
-console.log(image);
+let all = total += price;
+totalPrice.innerText = `${all}`
 cartItem.innerHTML += `
 <div class="item-info">
 <img id="cart-image" src="${image}" alt="" />
@@ -48,6 +53,7 @@ cartItem.innerHTML += `
 
 let cartToggle = document.querySelector("#cartToggle");
 let cartMenu = document.querySelector(".cart-list");
+
 
 
 let i = 0;
