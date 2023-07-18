@@ -62,7 +62,7 @@ nav {
 .cart-list {
   max-width: 400px;
   display: none;
-  display: flex;
+  max-height: 500px;
   flex-direction: row;
   position: absolute;
   right: 2rem;
@@ -83,6 +83,17 @@ nav {
       padding: 1em;
       flex-direction: row;
       display: flex;
+
+      #cart-name {
+        margin: 0 1em;
+        display: flex;
+        align-items: center;
+      }
+
+      #cart-price {
+        display: flex;
+        align-items: center;
+      }
     }
   }
 }
